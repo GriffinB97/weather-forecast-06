@@ -46,7 +46,6 @@ function saveSearchHistory(city) {
     searchHistory.appendChild(button);
 }
 
-// Add functionality to fetch and display the 5-day forecast
 function getForecastData(city) {
     fetch(`https://api.openweathermap.org/data/2.5/forecast?q=${city}&units=imperial&appid=${apiKey}`)
         .then(response => response.json())
