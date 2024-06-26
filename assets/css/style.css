@@ -1,21 +1,20 @@
-/* style.css */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background: #f0f0f0;
+    background: #e0f2f1;
 }
 
 .container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
-    background: #fff;
+    background: #ffffff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 header {
-    background: #3a3a3a;
+    background: #004d40; 
     color: #fff;
     text-align: center;
     padding: 10px 0;
@@ -30,6 +29,7 @@ header h1 {
 }
 
 .search-section h2, .forecast h2 {
+    color: #004d40;
     margin: 0 0 10px 0;
 }
 
@@ -37,10 +37,16 @@ header h1 {
     width: calc(100% - 120px);
     padding: 10px;
     margin-right: 10px;
+    background: #b2dfdb;
+    border: none;
+    color: #004d40;
 }
 
 #searchButton {
     padding: 10px 20px;
+    background: #00695c; 
+    color: white;
+    border: none;
 }
 
 #searchHistory button {
@@ -48,17 +54,18 @@ header h1 {
     width: 100%;
     margin: 5px 0;
     padding: 10px;
-    background: #ddd;
+    background: #4db6ac; 
     border: none;
     cursor: pointer;
 }
 
 #searchHistory button:hover {
-    background: #ccc;
+    background: #00695c; 
 }
 
 .current-weather p {
     margin: 5px 0;
+    color: #004d40; 
 }
 
 #forecastContainer {
@@ -67,7 +74,7 @@ header h1 {
 }
 
 .forecast-card {
-    background: #3a3a3a;
+    background: #4db6ac; 
     color: #fff;
     padding: 10px;
     width: 18%;
